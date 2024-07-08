@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    
+<head>
+    <title>My Little Platformer</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+    <div id="SplashScreen">
+        <div class="center">
+            <h1>My Little Platformer</h1>
+            <h2>Instructions</h2>
+            <hr>
+            <h3>Arrow buttons (or W,A,D) to move and jump </h3>
+            <h3>Spacebar to shoot</h3>
+            <h3>Collect all coins to unlock the exit for next level</h3>
+            <input type="text" id="playerName" placeholder="Enter your name here" onkeyup="enableStartButton()" />
+            <input disabled id="StartButton" type="button" value="Start" onclick="startGame()" />
+        </div>
+    </div>
+
+    <canvas id="canvas"></canvas>
+    <div>
+        <input id="RestartButton" type="button" value="Play again!" onclick="restartGame()" />
+    </div>
+
+    <script src="scripts.js"></script>
+
+
+    
+</body>
+</html>
