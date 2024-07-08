@@ -1,0 +1,31 @@
+#SplashScreen
+ {
+    border: 1px solid #000;
+    width: 1000px;
+    height: 600px;
+    background-image: url('images/background_sprite1.png');
+    background-size: 1000px 600px;
+}
+
+.center
+ {
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+canvas 
+{
+    border: 1px solid #000;
+    display: none;
+}
+
+#RestartButton
+ {
+    position: absolute;
+    left: 370px;
+    top: 500px;
+    display: none;
+
+}
